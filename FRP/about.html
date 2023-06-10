@@ -1,0 +1,74 @@
+<!DOCKTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with = device-width, initial-scale=1.0">
+        <title>FRP GEEKS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@300&family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/L2.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+<!----------About us content-------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The Best FRP Manufacturer Company</h1>
+            <p>In a matters of days,we have become very popular on the market we have consistently received excellent feedback from all our customers,who describe us as having a high level of product quality and ethics in the business transactions we carry out. in addition,we provide fast delivery of the product to our clients so that they can have their goods delivered without delay.our company is also  capable of serving customers,even from distant locations.if you are one of those people who love quality at a reasonable price, we will be there for you </p>
+            <a href="" class="hero-btn red-btn">Explore</a>
+        </div>
+        <div class="about-col">
+            <img src="images/BG1.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+<!---------Foooter-->
+<section class="footer">
+    <h4>Why Us?</h4>
+    <p>We Are Selling Products At A Reduced Price<br>We Are Performing A Quality Assessment Of The Products<br>We Are Bringing You The Best Collection</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+<!---------Script Toggle--------------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
